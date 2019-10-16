@@ -1,4 +1,4 @@
-# 文本绘图工具
+# 文本绘图工具 [drawing.itellyou.com](http://drawing.itellyou.com)
 ### 本项目可以生成以下svg格式的工程图
 + [PlantUml](http://plantuml.com) 是一个开源项目，支持快速绘制时序图、用例图、类图、活动图、组件图、状态图、对象图、部署图等。同时还支持非 UML 图的甘特图、架构图等。采用 [node-plantuml](https://github.com/markushedvall/node-plantuml) 库生成
 + Latex 采用[mathjax](https://www.mathjax.org/) 库生成 LaTeX 数学公式
@@ -6,11 +6,9 @@
 + [Flowchart](http://flowchart.js.org/) 在 [electronjs](http://electronjs.org/) 支持下，采用 [https://github.com/adrai/flowchart.js](https://github.com/adrai/flowchart.js) 库生成
 + [Mermaid](https://mermaidjs.github.io/#/) 在 [electronjs](http://electronjs.org/) 支持下，采用 [https://github.com/knsv/mermaid](https://github.com/knsv/mermaid) 库生成
 ### 运行
-Linux 上需要重新安装一遍 electron 以便更新为适用于 Linux ,否则部分功能无法正常使用
 ```
-npm install electron
+npm install
 ```
-接着
 ```
 node app.js
 ```
